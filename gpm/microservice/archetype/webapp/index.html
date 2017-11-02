@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Basic GlassCat Project Model">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="./styles/assets/glasscat.png">
+    <title><% projectName %></title>
+    <!-- Custom styles for this template -->
+    <link href="./styles/css/app.css" rel="stylesheet">
+    <script src="./vendor/nanoajax.min.js"></script>
+    <script>
+      sayHello = function() {
+        nanoajax.ajax(
+          { url:"./test.api/v1.0/hello" }, 
+          function (code, responseText) {
+            document.getElementById("result1").innerText = responseText;
+          }
+        );
+      };
+    
+      sayHelloToUser = function() {
+        let userName = document.getElementById("userName").value;
+        nanoajax.ajax(
+          { url:"./test.api/v1.0/hello/" + userName }, 
+          function (code, responseText) {
+            document.getElementById("result2").innerText = responseText;
+          }
+        );
+      };
+    </script>
+  </head>
+  <body>
+    <h1>
+      <img class="main-logo" src="./styles/assets/glasscat.png"/><% projectName %>
+    </h1>
+    <h3>Microservice bootstrap for GlassCat Application Server.</h3>
+    <p>
+      Use the forms below to test access to the <code>Hello</code> sample resource:
+    </p>
+    <p>
+      <form>
+        <fieldset>
+          <legend>/test.api/v1.0/hello</legend>
+          <button type="button" onclick="sayHello()">Say Hello</button>
+          <div id="result1"></div>
+        </fieldset>
+      </form>
+    </p>
+    <p>
+      <form>
+        <fieldset>
+          <legend>/test.api/v1.0/hello/:userName</legend>
+          <button type="button" onclick="sayHelloToUser()">Say Hello</button>
+          to
+          <input id="userName" type="text" placeholder="userName"/>
+          <div id="result2"></div>
+        </fieldset>
+      </form>
+    </p>
+  </body>
+</html>
