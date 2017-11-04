@@ -5,6 +5,7 @@
   "project": {
     "name": "Microservice",
     "version":"1.0.0",
+    "target": "microservice",
     "title": "Default JARS Project Model",
     "description": "Deploys a microservice project based on the JARS specification.",
     "author": "ONSOFT SYSTEMS"
