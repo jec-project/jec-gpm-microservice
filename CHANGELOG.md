@@ -8,6 +8,7 @@
 ### Features
 
 - JEC refactoring the `web.json` file has been removed from the `webapp/WEB-INF` directory and added to the new `JEC-INF` directory.
+- Adding JUTA support.
 
 <a name="jec-gpm-microservice-1.0.2"></a>
 ## **1.0.2** (2017-11-04)
