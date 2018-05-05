@@ -4,7 +4,7 @@
   "description": "A GlassCat Project Model (GPM) that deploys microservices based on the JavaScript API for REST Services (JARS).",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pechemann/jec-gpm-microservice.git"
+    "url": "git+https://github.com/jec-project/jec-gpm-microservice.git"
   },
   "keywords": [
     "JEC",
@@ -22,7 +22,7 @@
   "author": "Pascal ECHEMANN",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/pechemann/jec-gpm-microservice/issues"
+    "url": "https://github.com/jec-project/jec-gpm-microservice/issues"
   },
-  "homepage": "https://github.com/pechemann/jec-gpm-microservice#readme"
+  "homepage": "https://github.com/jec-project/jec-gpm-microservice#readme"
 }
