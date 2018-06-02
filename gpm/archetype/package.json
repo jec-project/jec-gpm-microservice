@@ -1,7 +1,7 @@
 {
   "name": "<% projectName %>",
   "version": "1.0.0",
-  "description": "GlassCat basic template.",
+  "description": "GlassCat microservice template.",
   "author": "",
   "license": "MIT",
   "scripts": {

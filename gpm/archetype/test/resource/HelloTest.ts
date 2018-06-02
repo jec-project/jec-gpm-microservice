@@ -16,7 +16,7 @@
 
 import { TestSuite, Test, Before, After, Async } from "jec-juta";
 import { expect } from "chai";
-import { Hello } from "../../src/resources/Hello";
+import { Hello } from "../../src/resource/Hello";
 
 @TestSuite({
   description: "Test the Hello class methods"

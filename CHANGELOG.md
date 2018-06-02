@@ -1,5 +1,14 @@
 # JEC Microservice GPM: Update Release Notes
 
+<a name="jec-gpm-microservice-1.0.4"></a>
+## **1.0.4** (2018-06-02)
+
+### Bug Fixes
+
+### Features
+
+- Packages refactoring: `resources` becomes `resource` and `versions` becomes `version`.
+
 <a name="jec-gpm-microservice-1.0.3"></a>
 ## **1.0.3** (2018-04-01)
 
