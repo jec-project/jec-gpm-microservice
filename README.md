@@ -1,5 +1,10 @@
 # JEC Microservice GPM
 
+[![JEC version](https://img.shields.io/badge/JEC-1.0-%23ba00ff.svg)](http://jecproject.org)
+[![GlassCat version](https://img.shields.io/badge/GlassCat-1.0-%230a50ff.svg)](http://jecproject.org)
+[![npm version](https://badge.fury.io/js/jec-gpm-microservice.svg)](https://www.npmjs.com/package/jec-gpm-microservice)
+[![Apache 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
 The Microservice GlassCat Project Model provides a [GlassCat Application Server][jec-glasscat-url] archetype that deploys microservices based on the JavaScript API for REST Services (JARS).
 
 [![][jec-logo]][jec-url]
@@ -14,7 +19,7 @@ JEC Microservice GPM needs the following system parameters in order to work corr
 
 ## Update Release Notes
 
-**Current stable release:** [1.0.4](CHANGELOG.md#jec-gpm-microservice-1.0.4)
+**Current stable release:** [1.0.5](CHANGELOG.md#jec-gpm-microservice-1.0.5)
  
 For a complete listing of release notes for JEC Microservice GPM update releases, see the [CHANGELOG](CHANGELOG.md) file. 
 
